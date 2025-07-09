@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body{
+    font-family: "Mulish", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.primary{
+    color: rgb(19, 19, 24);
+}
+.nav-design{
+   
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.nav-two{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.explore-container{
+     max-width: 1160px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-image:linear-gradient(180deg,rgba(19,19,24,.8)0%,rgba(19,19,24,0)100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+    border-radius: 5px;
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+.explore-container h1{
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    font-weight: 800px;
+
+}
+.explore-container p{
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+}
+.input-box{
+     margin-top: 20px;
+    background-color:rgba(255,255,255,0.2);
+    padding: 20px;
+    backdrop-filter: blur(4px);
+    border-radius: 8px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap: 10px;
+}
+input,select{
+      padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+.btn{
+    background-color: rgb(255, 84, 0);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
