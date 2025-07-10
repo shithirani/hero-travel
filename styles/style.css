@@ -84,3 +84,80 @@ input,select{
     border: none;
     border-radius: 5px;
 }
+.tour-container{
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top:50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.tour-text-container h1{
+  color: rgb(19, 19, 24);
+  font-size: 40px;
+  font-weight: 800;
+}
+.tour-text-container p{
+    color: rgba(19, 19, 24, 0.7);
+    margin-top: 20px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.tour-text-container ul li{
+    margin-top: 20px;
+    color: rgba(19, 19, 24, 0.7);
+    margin-left: 20px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.destination-container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.destination-text-conatiner{
+    text-align: center;
+    margin-top: 50px;
+}
+.destination-text-conatiner h2{
+    color: rgb(19, 19, 24);
+    font-size: 40px;
+    font-weight: 800;
+}
+.destination-text-conatiner p{
+    color: rgba(19, 19, 24, 0.7);
+    margin-top: 30px;
+    line-height: 30px;
+}
+.row-1,.row-2,.row-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 40px 0;
+    gap: 16px;
+   
+}
+.county-card{
+   
+    position: relative;
+}
+.county{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+     transform: translate(-50%,-50%);
+}
+.destination-container img{
+    width: 100%;
+    height: 300px;
+    filter: brightness(70%);
+}
+.row-2{
+ 
+    grid-template-columns: 0.80fr 1.5fr 0.7fr;
+
+
+}
+.row-3{
+grid-template-columns: .75fr 1.25fr;
+}
