@@ -161,3 +161,77 @@ input,select{
 .row-3{
 grid-template-columns: .75fr 1.25fr;
 }
+
+.deals-main-container{
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+      
+    
+}
+.deals-main-container h1{
+    color: rgb(19, 19, 24);
+    font-size: 40px;
+    font-weight: 800;
+}
+.deals-main-container p{
+    color: rgba(19, 19, 24, 0.7);
+    margin-top: 20px;
+    line-height: 30px;
+}
+.deals-main{
+    position: relative;
+}
+.deals-container{
+    background-image: url(../Images/Group\ 39.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+    width: 100%;
+    height: 400px;
+  
+}
+.deals-card{
+    width: 550px;
+    height: 300px;
+    background-color: rgb(255, 255, 255,0.6);
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    backdrop-filter:blur(3px);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;  
+     
+}
+.deals-main h2{
+ margin-right: 280px;
+ margin-top: 20px;
+}
+.deals-main h4{
+    margin-top: 20px;
+    color: rgb(255, 84, 0);
+    margin-right: 290px;
+
+}
+.design{
+    margin-top: 20px;
+    margin-right: 340px;
+}
+.icon-container{
+    display: flex;
+    text-align: left;
+    gap: 30px;
+    margin-right: 100px;
+}
+.fa-solid {
+    color: rgb(255, 84, 0);
+}
+.two{
+  left: 4%;  
+}
